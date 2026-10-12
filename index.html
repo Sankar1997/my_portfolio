@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SANKAR SOLAIYAPPAN | DevOps Engineer & Linux/Windows Infrastructure Specialist</title>
+  <meta name="description" content="Professional portfolio of Sankar Solaiyappan (B.Tech) — DevOps Engineer & System Administrator specializing in Linux and Windows server administration, CI/CD automation, Nginx reverse proxy, cloud backups, and infrastructure engineering.">
+  <meta name="keywords" content="DevOps Engineer, Sankar Solaiyappan, Linux Administrator, Windows Server 2022, Nginx Reverse Proxy, Jenkins CI/CD, Docker, PostgreSQL, MySQL, MSSQL, Cloud Backup, Let's Encrypt SSL, India">
+  <meta name="author" content="Sankar Solaiyappan">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Sankar Solaiyappan | DevOps & Network Infrastructure Engineer">
+  <meta property="og:description" content="Building Secure, Scalable, Automated Infrastructure for Modern Production Workloads.">
+  <meta property="og:image" content="./Images/Devops_Walpaper.jpeg">
+  <meta property="og:type" content="website">
+
+  <!-- Production Security Headers & Anti-XSS (GitHub Pages Optimized) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+
+  <!-- Google Fonts: Outfit, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons Script -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Modern Design System Stylesheet (Light Theme Default) -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- ===================================================================
+       HEADER & NAVIGATION BAR (WITH PROFILE ICON & DIRECT EMAIL/PHONE)
+       =================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <!-- Top Utility Bar: Direct Email, Mobile & Live Availability -->
+    <div class="top-bar" id="topBar">
+      <div class="container top-bar-container">
+        <div class="top-bar-left">
+          <span class="status-indicator">
+            <span class="status-pulse-dot"></span>
+            <span class="status-text">S. Solaiyappan (Nickname: Sankar) · Ready for Opportunities</span>
+          </span>
+          <span class="top-divider">•</span>
+          <span class="top-location">
+            <i data-lucide="map-pin" style="width: 13px; height: 13px;"></i>
+            <span>India</span>
+          </span>
+        </div>
+
+        <div class="top-bar-right">
+          <!-- Direct Email Pill with Quick Copy -->
+          <div class="top-contact-pill-wrapper">
+            <a href="mailto:ss.solaiyappan@gmail.com" class="top-contact-pill" title="Send Email">
+              <i data-lucide="mail" style="width: 14px; height: 14px;"></i>
+              <span class="contact-val">ss.solaiyappan@gmail.com</span>
+            </a>
+            <button type="button" class="quick-copy-mini-btn" data-copy="ss.solaiyappan@gmail.com" title="Copy Email to Clipboard">
+              <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
+            </button>
+          </div>
+
+          <!-- Direct Mobile Pill with Quick Call & Copy -->
+          <div class="top-contact-pill-wrapper">
+            <a href="tel:+919715426648" class="top-contact-pill" title="Call Mobile Number">
+              <i data-lucide="phone" style="width: 14px; height: 14px;"></i>
+              <span class="contact-val">+91-9715426648</span>
+            </a>
+            <button type="button" class="quick-copy-mini-btn" data-copy="+919715426648" title="Copy Phone Number">
+              <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
+            </button>
+          </div>
+
+          <!-- WhatsApp Direct Connect -->
+          <a href="https://wa.me/919715426648" target="_blank" rel="noopener noreferrer" class="top-whatsapp-pill" title="Chat on WhatsApp">
+            <i data-lucide="message-circle" style="width: 14px; height: 14px;"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div class="navbar" id="navbar">
+      <div class="container nav-container">
+        <!-- Profile Avatar & Brand Group -->
+        <div class="brand-profile-container">
+          <div class="brand-logo">
+            <div class="profile-avatar-wrapper" id="profileAvatarTrigger" title="Click to view Quick Contact Profile Card" role="button" tabindex="0">
+              <img src="./Images/Devops_Walpaper.jpeg" alt="Sankar Solaiyappan Profile Icon" class="profile-avatar-img">
+              <span class="profile-status-dot" title="Active / Operational"></span>
+            </div>
+            <a href="#hero" style="display: flex; flex-direction: column; text-decoration: none;">
+              <div class="brand-name-row">
+                <span class="brand-name">S. SOLAIYAPPAN</span>
+                <span class="brand-nickname-badge">SANKAR</span>
+                <span class="brand-degree-badge">B.Tech</span>
+              </div>
+              <span class="brand-tag">DevOps & Systems Architect</span>
+            </a>
+          </div>
+
+          <!-- Profile Quick Connect Popover Card -->
+          <div class="profile-popover-card" id="profilePopoverCard">
+            <div class="popover-header">
+              <div class="popover-avatar-wrap">
+                <img src="./Images/Devops_Walpaper.jpeg" alt="Sankar Solaiyappan" class="popover-avatar-img">
+                <span class="popover-status-dot"></span>
+              </div>
+              <div class="popover-user-info">
+                <h4 class="popover-name">S Solaiyappan</h4>
+                <span class="popover-role">Nickname: <strong style="color: var(--accent-primary);">SANKAR</strong></span>
+                <span class="popover-badge">● B.Tech · DevOps Specialist</span>
+              </div>
+            </div>
+
+            <div class="popover-channels">
+              <div class="popover-channel-row">
+                <div class="channel-icon-mini"><i data-lucide="mail"></i></div>
+                <div class="channel-text-mini">
+                  <span class="channel-mini-label">Email Address</span>
+                  <a href="mailto:ss.solaiyappan@gmail.com" class="channel-mini-val">ss.solaiyappan@gmail.com</a>
+                </div>
+                <button type="button" class="channel-action-btn quick-copy-mini-btn" data-copy="ss.solaiyappan@gmail.com" title="Copy Email">
+                  <i data-lucide="copy" style="width: 13px; height: 13px;"></i>
+                </button>
+              </div>
+
+              <div class="popover-channel-row">
+                <div class="channel-icon-mini"><i data-lucide="phone"></i></div>
+                <div class="channel-text-mini">
+                  <span class="channel-mini-label">Mobile Number</span>
+                  <a href="tel:+919715426648" class="channel-mini-val">+91-9715426648</a>
+                </div>
+                <a href="tel:+919715426648" class="channel-action-btn" title="Call Now">
+                  <i data-lucide="phone-call" style="width: 13px; height: 13px;"></i>
+                </a>
+              </div>
+
+              <div class="popover-channel-row">
+                <div class="channel-icon-mini" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">
+                  <i data-lucide="message-circle"></i>
+                </div>
+                <div class="channel-text-mini">
+                  <span class="channel-mini-label">Instant Chat</span>
+                  <a href="https://wa.me/919715426648" target="_blank" rel="noopener noreferrer" class="channel-mini-val">WhatsApp (+91 9715426648)</a>
+                </div>
+                <a href="https://wa.me/919715426648" target="_blank" rel="noopener noreferrer" class="channel-action-btn" title="Open WhatsApp">
+                  <i data-lucide="external-link" style="width: 13px; height: 13px;"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="popover-footer-actions">
+              <a href="#contact" class="btn btn-primary btn-sm" id="popoverContactBtn" style="flex: 1;">
+                <i data-lucide="send" style="width: 14px; height: 14px;"></i>
+                <span>Direct Message</span>
+              </a>
+              <a href="#projects" class="btn btn-secondary btn-sm" style="flex: 1;">
+                <i data-lucide="layout-grid" style="width: 14px; height: 14px;"></i>
+                <span>Projects</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desktop & Mobile Navigation Menu -->
+        <nav>
+          <ul class="nav-menu" id="navMenu">
+            <!-- Mobile Drawer Profile Card (Visible on mobile screens) -->
+            <li class="mobile-drawer-profile-card">
+              <div class="mobile-profile-wrap">
+                <img src="./Images/Devops_Walpaper.jpeg" alt="Sankar Solaiyappan" class="mobile-profile-img">
+                <div>
+                  <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary);">S. Solaiyappan <span style="color: var(--accent-primary); font-size: 0.85rem;">(Sankar)</span></h4>
+                  <span style="font-size: 0.78rem; color: var(--accent-primary); font-weight: 700;">B.Tech · DevOps & Systems Architect</span>
+                </div>
+              </div>
+              <div class="mobile-contact-actions">
+                <a href="mailto:ss.solaiyappan@gmail.com" class="btn btn-secondary btn-sm">
+                  <i data-lucide="mail" style="width: 14px; height: 14px;"></i>
+                  <span>Email</span>
+                </a>
+                <a href="tel:+919715426648" class="btn btn-primary btn-sm">
+                  <i data-lucide="phone" style="width: 14px; height: 14px;"></i>
+                  <span>Call</span>
+                </a>
+                <a href="https://wa.me/919715426648" target="_blank" class="btn btn-outline btn-sm">
+                  <i data-lucide="message-circle" style="width: 14px; height: 14px;"></i>
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+            </li>
+
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#architecture" class="nav-link">Architecture</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="nav-actions">
+          <!-- Direct Mobile Action Button (Desktop & Tablet) -->
+          <a href="tel:+919715426648" class="header-phone-quick-btn" title="Call Sankar: +91-9715426648">
+            <i data-lucide="phone-call" style="width: 14px; height: 14px;"></i>
+            <span>+91-9715426648</span>
+          </a>
+
+          <!-- Theme Toggle -->
+          <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle Light/Dark Theme" title="Toggle Light/Dark Theme">
+            <i data-lucide="moon" id="themeIcon"></i>
+          </button>
+
+          <!-- Direct Contact Button -->
+          <a href="#contact" class="btn btn-primary btn-sm" id="navContactBtn">
+            <i data-lucide="send" style="width: 15px; height: 15px;"></i>
+            <span>Contact Me</span>
+          </a>
+
+          <!-- Hamburger Button for Mobile -->
+          <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================
+       HERO SECTION
+       =================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left: Headline & Bio -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>All Systems Operational · 99.98% Target Uptime</span>
+          </div>
+
+          <div class="nickname-badge">
+            <i data-lucide="sparkles" style="width: 14px; height: 14px; color: var(--accent-primary);"></i>
+            <span>Nickname / Also Known As: <strong class="nick-highlight">SANKAR</strong></span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">S. Solaiyappan</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span>DevOps Engineer</span>
+            <span style="color: var(--text-muted);">|</span>
+            <span class="role-badge">Linux & Windows Administrator</span>
+            <span style="color: var(--text-muted);">|</span>
+            <span style="font-size: 0.95rem; color: var(--accent-primary); font-weight: 700;">B.Tech</span>
+          </div>
+
+          <p class="hero-tagline">
+            “Building Secure, Scalable, Automated Infrastructure for Modern Businesses.”
+            Hands-on engineer specializing in heterogeneous server environments, CI/CD automation, 
+            high-availability Nginx reverse proxy, automated multi-database backups, and cloud disaster recovery.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary btn-lg" id="heroBtnProjects">
+              <i data-lucide="layout-grid" style="width: 18px; height: 18px;"></i>
+              <span>View My Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-lg" id="heroBtnContact">
+              <i data-lucide="mail" style="width: 18px; height: 18px;"></i>
+              <span>Get in Touch</span>
+            </a>
+            <a href="#education" class="btn btn-outline btn-lg" id="heroBtnEducation">
+              <i data-lucide="graduation-cap" style="width: 18px; height: 18px;"></i>
+              <span>Academic Credentials</span>
+            </a>
+          </div>
+
+          <!-- Quick Telemetry Counters -->
+          <div class="hero-telemetry-row">
+            <div class="telemetry-item">
+              <span class="telemetry-num count-up" data-target="99.98" data-suffix="%">0%</span>
+              <span class="telemetry-label">Service Uptime</span>
+            </div>
+            <div class="telemetry-item">
+              <span class="telemetry-num count-up" data-target="100" data-suffix="+">0+</span>
+              <span class="telemetry-label">Deployments</span>
+            </div>
+            <div class="telemetry-item">
+              <span class="telemetry-num count-up" data-target="15" data-suffix="+">0+</span>
+              <span class="telemetry-label">Pipelines Built</span>
+            </div>
+            <div class="telemetry-item">
+              <span class="telemetry-num count-up" data-target="100" data-suffix="%">0%</span>
+              <span class="telemetry-label">Backup Recovery</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Wallpaper Integration Visual Frame -->
+        <div class="hero-visual-card">
+          <!-- Floating Badge 1 -->
+          <div class="floating-hud floating-hud-1">
+            <div class="hud-icon emerald">
+              <i data-lucide="check-circle-2"></i>
+            </div>
+            <div class="hud-details">
+              <span class="hud-title">Health Check</span>
+              <span class="hud-value">Production Healthy</span>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper" id="wallpaperTrigger" title="Click to view full wallpaper high-res">
+            <img 
+              src="./Images/Devops_Walpaper.jpeg" 
+              alt="Sankar Solaiyappan DevOps Engineer Desk & Cloud Infrastructure"
+              class="hero-image"
+              id="heroWallpaperImg"
+            >
+            <div class="hero-image-overlay">
+              <div class="overlay-caption">
+                <span class="title">Sankar B.Tech — Operations Command</span>
+                <span class="sub">Click to expand high-resolution visual</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Badge 2 -->
+          <div class="floating-hud floating-hud-2">
+            <div class="hud-icon blue">
+              <i data-lucide="cloud-cog"></i>
+            </div>
+            <div class="hud-details">
+              <span class="hud-title">Cloud Backup</span>
+              <span class="hud-value">OneDrive Encrypted</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       ABOUT ME SECTION
+       =================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="user-check" style="width: 14px; height: 14px;"></i>
+          <span>Engineering Profile</span>
+        </div>
+        <h2 class="section-title">Architecting <span>Resilient Systems</span> & Operations</h2>
+        <p class="section-subtitle">
+          DevOps Engineer and System Administrator with proven expertise across mixed Linux and Windows server environments,
+          dedicated to automating deployments, securing public endpoints, and eliminating single points of failure.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am <strong>Sankar Solaiyappan</strong>, a DevOps Engineer and System Administrator with hands-on experience in 
+            <strong>Linux (CentOS, Ubuntu, Debian)</strong> and <strong>Windows Server (2019 / 2022)</strong> administration. 
+            My focus centers on delivering resilient production infrastructure through automated CI/CD pipelines, containerization, 
+            zero-downtime reverse proxy configurations, and rock-solid database disaster recovery.
+          </p>
+          <p>
+            Whether implementing multi-domain <strong>Nginx reverse proxies</strong> with automated Let's Encrypt SSL/TLS certificates, 
+            orchestrating <strong>Jenkins & Docker</strong> deployment workflows, or writing custom shell and batch scripts for 
+            <strong>PostgreSQL, MySQL, and MSSQL</strong> backups with cloud sync to OneDrive, I prioritize reliability, speed, and security.
+          </p>
+
+          <div class="about-cards-grid">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i data-lucide="terminal"></i>
+              </div>
+              <h3 class="feature-title">Heterogeneous OS Admin</h3>
+              <p class="feature-desc">Deep administrative mastery across CentOS, Ubuntu, Debian, and Windows Server 2019/2022 environments.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i data-lucide="git-merge"></i>
+              </div>
+              <h3 class="feature-title">CI/CD & Containerization</h3>
+              <p class="feature-desc">Continuous integration pipelines using Jenkins, GitHub webhooks, and Dockerized application hosting.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <h3 class="feature-title">Reverse Proxy & SSL</h3>
+              <p class="feature-desc">Multi-domain Nginx reverse proxy with automated Let's Encrypt Certbot SSL renewal and hardened ciphers.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i data-lucide="database"></i>
+              </div>
+              <h3 class="feature-title">Multi-DB Cloud Backups</h3>
+              <p class="feature-desc">Automated backup workflows for PostgreSQL, MySQL, and MSSQL with OneDrive cloud sync & PgLoader migration.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Specs Card -->
+        <div class="about-specs-card">
+          <div class="specs-header">
+            <i data-lucide="server-cog" style="color: var(--accent-primary);"></i>
+            <span>Engineering Metrics</span>
+          </div>
+
+          <ul class="specs-list">
+            <li class="spec-item">
+              <span class="spec-dot"></span>
+              <div class="spec-content">
+                <span class="spec-label">Name</span>
+                <span class="spec-value">S Solaiyappan (Sankar)</span>
+              </div>
+            </li>
+            <li class="spec-item">
+              <span class="spec-dot"></span>
+              <div class="spec-content">
+                <span class="spec-label">Education</span>
+                <span class="spec-value">B.Tech — DevOps & Systems</span>
+              </div>
+            </li>
+            <li class="spec-item">
+              <span class="spec-dot"></span>
+              <div class="spec-content">
+                <span class="spec-label">Location</span>
+                <span class="spec-value">India (Open to Global Remote & Hybrid)</span>
+              </div>
+            </li>
+            <li class="spec-item">
+              <span class="spec-dot"></span>
+              <div class="spec-content">
+                <span class="spec-label">Direct Contact</span>
+                <span class="spec-value">ss.solaiyappan@gmail.com</span>
+              </div>
+            </li>
+            <li class="spec-item">
+              <span class="spec-dot"></span>
+              <div class="spec-content">
+                <span class="spec-label">Phone</span>
+                <span class="spec-value">+91-9715426648</span>
+              </div>
+            </li>
+            <li class="spec-item">
+              <span class="spec-dot"></span>
+              <div class="spec-content">
+                <span class="spec-label">Key Strengths</span>
+                <span class="spec-value">Fast Root-Cause Analysis, High-Availability, Production Troubleshooting</span>
+              </div>
+            </li>
+          </ul>
+
+          <div style="margin-top: 2rem;">
+            <a href="#contact" class="btn btn-primary" style="width: 100%;">
+              <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+              <span>Initiate Transmission</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       TECHNICAL SKILLS SECTION
+       =================================================================== -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="cpu" style="width: 14px; height: 14px;"></i>
+          <span>Technical Arsenal</span>
+        </div>
+        <h2 class="section-title">Core <span>Technologies</span> & Proficiencies</h2>
+        <p class="section-subtitle">
+          Directly aligned with proven production engineering experience across systems, cloud pipelines, security, and databases.
+        </p>
+      </div>
+
+      <div class="skills-matrix-grid">
+        <!-- 1. Operating Systems -->
+        <div class="skill-domain-card">
+          <div class="skill-domain-header">
+            <div class="domain-info">
+              <div class="domain-icon"><i data-lucide="hard-drive"></i></div>
+              <h3 class="domain-title">Operating Systems</h3>
+            </div>
+            <span class="domain-badge">SysAdmin</span>
+          </div>
+          <div class="skill-items-list">
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Ubuntu & Debian Linux</span><span class="skill-level-text">95%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">CentOS / AlmaLinux</span><span class="skill-level-text">90%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Windows Server 2019 / 2022</span><span class="skill-level-text">92%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+            </div>
+          </div>
+          <div class="skill-tags-cloud">
+            <span class="skill-pill">Linux Kernel</span>
+            <span class="skill-pill">Systemd</span>
+            <span class="skill-pill">Active Directory</span>
+            <span class="skill-pill">Windows 10/11</span>
+          </div>
+        </div>
+
+        <!-- 2. DevOps & CI/CD -->
+        <div class="skill-domain-card">
+          <div class="skill-domain-header">
+            <div class="domain-info">
+              <div class="domain-icon"><i data-lucide="workflow"></i></div>
+              <h3 class="domain-title">DevOps & CI/CD</h3>
+            </div>
+            <span class="domain-badge">Automation</span>
+          </div>
+          <div class="skill-items-list">
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Jenkins Automation</span><span class="skill-level-text">92%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Docker & Containers</span><span class="skill-level-text">88%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Git & GitHub Webhooks</span><span class="skill-level-text">95%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+            </div>
+          </div>
+          <div class="skill-tags-cloud">
+            <span class="skill-pill">Declarative Pipelines</span>
+            <span class="skill-pill">Docker Compose</span>
+            <span class="skill-pill">Kubernetes (Basic)</span>
+            <span class="skill-pill">Build Artifacts</span>
+          </div>
+        </div>
+
+        <!-- 3. Web & Application Servers -->
+        <div class="skill-domain-card">
+          <div class="skill-domain-header">
+            <div class="domain-info">
+              <div class="domain-icon"><i data-lucide="server"></i></div>
+              <h3 class="domain-title">Web & App Servers</h3>
+            </div>
+            <span class="domain-badge">Networking</span>
+          </div>
+          <div class="skill-items-list">
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Nginx Reverse Proxy</span><span class="skill-level-text">96%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 96%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Apache Tomcat (Java)</span><span class="skill-level-text">88%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Microsoft IIS & Apache HTTP</span><span class="skill-level-text">85%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+            </div>
+          </div>
+          <div class="skill-tags-cloud">
+            <span class="skill-pill">SNI Routing</span>
+            <span class="skill-pill">HTTP/2</span>
+            <span class="skill-pill">Virtual Hosts</span>
+            <span class="skill-pill">Load Balancing</span>
+          </div>
+        </div>
+
+        <!-- 4. Security & SSL -->
+        <div class="skill-domain-card">
+          <div class="skill-domain-header">
+            <div class="domain-info">
+              <div class="domain-icon"><i data-lucide="shield-alert"></i></div>
+              <h3 class="domain-title">Security & SSL</h3>
+            </div>
+            <span class="domain-badge">Hardening</span>
+          </div>
+          <div class="skill-items-list">
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Let's Encrypt (Certbot) & GoDaddy</span><span class="skill-level-text">95%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">UFW & Windows Defender Firewall</span><span class="skill-level-text">90%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">SSH Key Hardening & Fail2ban</span><span class="skill-level-text">88%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+          </div>
+          <div class="skill-tags-cloud">
+            <span class="skill-pill">TLS 1.3</span>
+            <span class="skill-pill">Port Hardening</span>
+            <span class="skill-pill">Access Control</span>
+            <span class="skill-pill">Auto Renewal</span>
+          </div>
+        </div>
+
+        <!-- 5. Databases & Migration -->
+        <div class="skill-domain-card">
+          <div class="skill-domain-header">
+            <div class="domain-info">
+              <div class="domain-icon"><i data-lucide="database"></i></div>
+              <h3 class="domain-title">Databases & Migration</h3>
+            </div>
+            <span class="domain-badge">Data Ops</span>
+          </div>
+          <div class="skill-items-list">
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">PostgreSQL</span><span class="skill-level-text">90%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">MySQL / MariaDB</span><span class="skill-level-text">92%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">MSSQL & PgLoader Migration</span><span class="skill-level-text">85%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+            </div>
+          </div>
+          <div class="skill-tags-cloud">
+            <span class="skill-pill">pg_dump</span>
+            <span class="skill-pill">mysqldump</span>
+            <span class="skill-pill">PgLoader</span>
+            <span class="skill-pill">Schema Sync</span>
+          </div>
+        </div>
+
+        <!-- 6. Scripting & Cloud Automation -->
+        <div class="skill-domain-card">
+          <div class="skill-domain-header">
+            <div class="domain-info">
+              <div class="domain-icon"><i data-lucide="code"></i></div>
+              <h3 class="domain-title">Scripting & Cloud Backup</h3>
+            </div>
+            <span class="domain-badge">Dev & Ops</span>
+          </div>
+          <div class="skill-items-list">
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Shell & Batch Scripting</span><span class="skill-level-text">94%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 94%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">Python Automation</span><span class="skill-level-text">82%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 82%;"></div></div>
+            </div>
+            <div class="skill-bar-row">
+              <div class="skill-meta"><span class="skill-name">OneDrive Cloud Backup & Cron</span><span class="skill-level-text">96%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 96%;"></div></div>
+            </div>
+          </div>
+          <div class="skill-tags-cloud">
+            <span class="skill-pill">Cron Jobs</span>
+            <span class="skill-pill">Windows Task Scheduler</span>
+            <span class="skill-pill">App Hosting (Python/PHP/Java/Dart)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       ARCHITECTURE SHOWCASE SECTION
+       =================================================================== -->
+  <section class="architecture-section" id="architecture">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="network" style="width: 14px; height: 14px;"></i>
+          <span>Architecture Showcase</span>
+        </div>
+        <h2 class="section-title">Interactive <span>Infrastructure Topology</span></h2>
+        <p class="section-subtitle">
+          Explore end-to-end production request flow and automated CI/CD container lifecycle. Click any node to inspect detailed protocols, security boundaries, and runtime configurations.
+        </p>
+      </div>
+
+      <!-- Tab Switcher -->
+      <div class="architecture-tabs">
+        <button class="arch-tab-btn active" id="tabArchInfra">
+          <i data-lucide="globe"></i>
+          <span>High-Availability Web Hosting Topology</span>
+        </button>
+        <button class="arch-tab-btn" id="tabArchCicd">
+          <i data-lucide="git-pull-request"></i>
+          <span>CI/CD & Container Deployment Pipeline</span>
+        </button>
+      </div>
+
+      <!-- Flow Container -->
+      <div class="arch-stage-wrapper">
+        <div class="arch-flow-diagram" id="archFlowDiagram">
+          <!-- Dynamically populated by js/architecture.js -->
+        </div>
+
+        <!-- Node Inspector Panel -->
+        <div class="arch-inspector" id="archInspector">
+          <!-- Inspector details populated on click -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       INFRASTRUCTURE DASHBOARD SIMULATOR
+       =================================================================== -->
+  <section class="dashboard-section" id="dashboard">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="gauge" style="width: 14px; height: 14px;"></i>
+          <span>Live Telemetry</span>
+        </div>
+        <h2 class="section-title">Interactive <span>Operations Command Center</span></h2>
+        <p class="section-subtitle">
+          Simulated real-time server fleet telemetry demonstrating live CPU/RAM utilization sparklines, network throughput, node health states, and automated cron activity logs.
+        </p>
+      </div>
+
+      <div class="dashboard-wrapper">
+        <!-- Terminal Bar -->
+        <div class="dashboard-topbar">
+          <div class="dashboard-controls">
+            <span class="ctrl-btn ctrl-close"></span>
+            <span class="ctrl-btn ctrl-min"></span>
+            <span class="ctrl-btn ctrl-max"></span>
+          </div>
+          <div class="dashboard-title-bar">
+            <i data-lucide="terminal" style="width: 14px; height: 14px;"></i>
+            <span>ops-cluster-01.internal // SS-INFRA-MONITOR</span>
+          </div>
+          <div class="dashboard-actions-bar">
+            <button class="btn btn-secondary btn-sm" id="btnSimulateSpike" style="padding: 0.25rem 0.65rem; font-size: 0.75rem;">
+              Simulate Traffic Spike
+            </button>
+            <button class="btn btn-primary btn-sm" id="btnTriggerBackup" style="padding: 0.25rem 0.65rem; font-size: 0.75rem;">
+              Trigger Backup
+            </button>
+          </div>
+        </div>
+
+        <div class="dashboard-content">
+          <!-- Metrics Row -->
+          <div class="dash-metrics-grid">
+            <div class="metric-card">
+              <div class="metric-card-header">
+                <span class="metric-card-title">Cluster CPU Load</span>
+                <span style="font-size: 0.75rem; color: #38bdf8;">Real-Time</span>
+              </div>
+              <span class="metric-card-val" id="dashCpuVal">14%</span>
+              <canvas class="metric-sparkline" id="cpuCanvas"></canvas>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-card-header">
+                <span class="metric-card-title">Memory Allocation</span>
+                <span style="font-size: 0.75rem; color: #a855f7;">Allocated / Free</span>
+              </div>
+              <span class="metric-card-val" id="dashRamVal" style="color: #a855f7;">36%</span>
+              <canvas class="metric-sparkline" id="ramCanvas"></canvas>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-card-header">
+                <span class="metric-card-title">Network Ingress / Egress</span>
+                <span style="font-size: 0.75rem; color: #34d399;">1Gbps NIC</span>
+              </div>
+              <span class="metric-card-val" id="dashNetOutVal" style="color: #34d399; font-size: 1.4rem;">78.4 MB/s</span>
+              <span style="font-size: 0.75rem; color: #94a3b8; font-family: var(--font-mono);" id="dashNetInVal">In: 34.2 MB/s</span>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-card-header">
+                <span class="metric-card-title">Throughput Rate</span>
+                <span style="font-size: 0.75rem; color: #fbbf24;">HTTP/2 Proxy</span>
+              </div>
+              <span class="metric-card-val" id="dashReqsVal" style="color: #fbbf24; font-size: 1.4rem;">380 req/s</span>
+              <span style="font-size: 0.75rem; color: #94a3b8; font-family: var(--font-mono);">0 Error Rate (200 OK)</span>
+            </div>
+          </div>
+
+          <!-- Server Fleet Cards -->
+          <div class="dash-servers-grid">
+            <div class="server-node-card">
+              <div class="server-info">
+                <span class="server-name">srv-app-ubuntu-01</span>
+                <span class="server-os">Ubuntu 22.04 LTS (Nginx / Tomcat)</span>
+              </div>
+              <span class="server-pill"><span class="status-dot"></span> Online</span>
+            </div>
+
+            <div class="server-node-card">
+              <div class="server-info">
+                <span class="server-name">srv-db-win-2022</span>
+                <span class="server-os">Windows Server 2022 (MSSQL / IIS)</span>
+              </div>
+              <span class="server-pill"><span class="status-dot"></span> Online</span>
+            </div>
+
+            <div class="server-node-card">
+              <div class="server-info">
+                <span class="server-name">srv-db-linux-pg</span>
+                <span class="server-os">Debian 12 (PostgreSQL 16)</span>
+              </div>
+              <span class="server-pill"><span class="status-dot"></span> Online</span>
+            </div>
+
+            <div class="server-node-card">
+              <div class="server-info">
+                <span class="server-name">srv-ci-jenkins-node</span>
+                <span class="server-os">CentOS Stream / Docker Daemon</span>
+              </div>
+              <span class="server-pill"><span class="status-dot"></span> Idle / Ready</span>
+            </div>
+          </div>
+
+          <!-- Event Log Stream -->
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; color: #94a3b8; letter-spacing: 0.05em;">
+                Automated Operations Event Stream
+              </span>
+              <button id="btnClearLogs" style="font-size: 0.72rem; color: #94a3b8; font-family: var(--font-mono); text-decoration: underline;">
+                Clear Feed
+              </button>
+            </div>
+            <div class="dash-logs-stream" id="dashLogsStream">
+              <div class="log-entry">
+                <span class="log-timestamp">[12:37:42]</span>
+                <span class="log-level info">[INFO]</span>
+                <span class="log-msg">Cluster daemon initialized. Monitoring 4 host nodes & Nginx reverse proxy.</span>
+              </div>
+              <div class="log-entry">
+                <span class="log-timestamp">[12:37:45]</span>
+                <span class="log-level success">[SUCCESS]</span>
+                <span class="log-msg">Let's Encrypt SSL certificate check passed: Certbot (*.domain.com) valid for 68 days.</span>
+              </div>
+              <div class="log-entry">
+                <span class="log-timestamp">[12:37:50]</span>
+                <span class="log-level success">[SUCCESS]</span>
+                <span class="log-msg">OneDrive Cloud disaster recovery backup sync verified (SHA-256 integrity OK).</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PROJECTS & CASE STUDIES SECTION
+       =================================================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="briefcase" style="width: 14px; height: 14px;"></i>
+          <span>Production Projects</span>
+        </div>
+        <h2 class="section-title">Engineered <span>Solutions & Case Studies</span></h2>
+        <p class="section-subtitle">
+          Real-world infrastructure projects implemented across Linux and Windows servers, highlighting technical challenges, automated workflows, and measurable impact.
+        </p>
+      </div>
+
+      <!-- Filter Categories -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Solutions (6)</button>
+        <button class="filter-btn" data-filter="backup">Cloud & Backup Automation</button>
+        <button class="filter-btn" data-filter="web">Web & Reverse Proxy</button>
+        <button class="filter-btn" data-filter="devops">DevOps & CI/CD</button>
+        <button class="filter-btn" data-filter="security">Security & Systems</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Dynamically rendered by js/projects.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PROFESSIONAL EXPERIENCE & EDUCATION SECTION
+       =================================================================== -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="history" style="width: 14px; height: 14px;"></i>
+          <span>Track Record</span>
+        </div>
+        <h2 class="section-title">Professional <span>Experience & Credentials</span></h2>
+        <p class="section-subtitle">
+          Hands-on employment history and verified engineering foundation based on resume records.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Timeline Item 1: Experience -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">DevOps Engineer / Linux & Windows Administrator</h3>
+                <span class="timeline-company">Enterprise Production Operations</span>
+              </div>
+              <span class="timeline-period">Ongoing Employment</span>
+            </div>
+
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+              Administering, automating, and safeguarding hybrid infrastructure running mission-critical enterprise services across Linux distributions and Windows Server.
+            </p>
+
+            <ul class="timeline-responsibilities">
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>Server Administration:</strong> Administered and monitored Linux (CentOS, Ubuntu, Debian) and Windows Server 2019/2022 in production environments.</span>
+              </li>
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>CI/CD Pipelines:</strong> Designed and maintained CI/CD build and deployment pipelines using Jenkins and GitHub webhooks.</span>
+              </li>
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>Web Hosting & Proxy:</strong> Configured Nginx and Microsoft IIS for secure web hosting; implemented Nginx reverse proxy routing for multiple domains and backend apps.</span>
+              </li>
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>SSL/TLS Automation:</strong> Configured SSL certificates using Let’s Encrypt Certbot with automated auto-renewal and GoDaddy SSL installation.</span>
+              </li>
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>Multi-DB Cloud Backups:</strong> Automated database backups for PostgreSQL, MySQL, and MSSQL with OneDrive cloud sync for disaster recovery.</span>
+              </li>
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>Scripting & Scheduled Jobs:</strong> Developed Python, shell, and Windows batch scripts; configured cron jobs and Windows Task Scheduler for maintenance automation.</span>
+              </li>
+              <li>
+                <span class="bullet">✔</span>
+                <span><strong>Containerization & Troubleshooting:</strong> Deployed containerized applications with Docker; performed fast root-cause analysis across OS, database, and network issues.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2: Education -->
+        <div class="timeline-item">
+          <div class="timeline-marker" style="border-color: var(--accent-cyan);"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Bachelor of Technology (B.Tech)</h3>
+                <span class="timeline-company">Engineering Graduate</span>
+              </div>
+              <span class="timeline-period" style="background: rgba(2, 132, 199, 0.1); color: var(--accent-cyan); border-color: rgba(2, 132, 199, 0.2);">
+                Graduated
+              </span>
+            </div>
+
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+              Comprehensive foundation in computer systems engineering, data structures, network protocols, server operating systems, and distributed architecture principles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       CONTACT SECTION
+       =================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <i data-lucide="mail" style="width: 14px; height: 14px;"></i>
+          <span>Direct Channel</span>
+        </div>
+        <h2 class="section-title">Let’s Build <span>Reliable & Secure Infrastructure</span></h2>
+        <p class="section-subtitle">
+          Have an upcoming project, infrastructure automation challenge, or looking to hire a dedicated DevOps Engineer? Send a direct transmission below.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Channel Info -->
+        <div class="contact-info-card">
+          <div class="contact-info-block">
+            <h3 class="contact-info-title">Direct Contact Information</h3>
+            <p class="contact-info-desc">
+              Fast response guaranteed for DevOps opportunities, system administration contracts, and infrastructure consulting.
+            </p>
+          </div>
+
+          <div class="contact-channels-list">
+            <div class="channel-item">
+              <div class="channel-icon"><i data-lucide="mail"></i></div>
+              <div class="channel-data">
+                <span class="channel-label">Email Address</span>
+                <span class="channel-val"><a href="mailto:ss.solaiyappan@gmail.com">ss.solaiyappan@gmail.com</a></span>
+              </div>
+            </div>
+
+            <div class="channel-item">
+              <div class="channel-icon"><i data-lucide="phone"></i></div>
+              <div class="channel-data">
+                <span class="channel-label">Phone / WhatsApp</span>
+                <span class="channel-val"><a href="tel:+919715426648">+91-9715426648</a></span>
+              </div>
+            </div>
+
+            <div class="channel-item">
+              <div class="channel-icon"><i data-lucide="map-pin"></i></div>
+              <div class="channel-data">
+                <span class="channel-label">Current Location</span>
+                <span class="channel-val">India (Available for Remote / Hybrid)</span>
+              </div>
+            </div>
+
+            <div class="channel-item">
+              <div class="channel-icon"><i data-lucide="github"></i></div>
+              <div class="channel-data">
+                <span class="channel-label">GitHub Repository</span>
+                <span class="channel-val"><a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/</a></span>
+              </div>
+            </div>
+
+            <div class="channel-item">
+              <div class="channel-icon"><i data-lucide="linkedin"></i></div>
+              <div class="channel-data">
+                <span class="channel-label">LinkedIn Profile</span>
+                <span class="channel-val"><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <a href="mailto:ss.solaiyappan@gmail.com" class="btn btn-secondary" style="width: 100%;">
+              <i data-lucide="mail" style="width: 16px; height: 16px;"></i>
+              <span>Direct Email Transmission</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card">
+          <form class="contact-form" id="contactForm">
+            <!-- Anti-Bot Spam Honeypot Field -->
+            <input type="text" name="_security_trap_field" id="formSecurityTrap" style="display:none !important; position:absolute; left:-9999px;" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="form-group">
+              <label for="contactName">Full Name *</label>
+              <input type="text" id="contactName" class="form-input" placeholder="e.g. John Doe / Engineering Manager" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Work Email Address *</label>
+              <input type="email" id="contactEmail" class="form-input" placeholder="e.g. j.doe@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject">Subject *</label>
+              <input type="text" id="contactSubject" class="form-input" placeholder="e.g. DevOps Role / Infrastructure Project" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message / Project Requirements *</label>
+              <textarea id="contactMessage" class="form-textarea" placeholder="Detail your server setup, automation scope, or opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="margin-top: 0.5rem;">
+              <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+              <span>Transmit Message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="brand-logo">
+          <div class="brand-badge">SS</div>
+          <div class="brand-info">
+            <span class="brand-name">SANKAR SOLAIYAPPAN</span>
+            <span class="brand-tag">DevOps & Systems Architect</span>
+          </div>
+        </a>
+
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#architecture" class="nav-link">Architecture</a>
+          <a href="#dashboard" class="nav-link">Live Telemetry</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Sankar Solaiyappan. Built with Light Theme & Modern UI Engineering. All rights reserved.
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span class="status-dot"></span>
+          <span>Zero Secrets Exposed · Clean Production Architecture</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       MODAL 1: PROJECT DEEP DIVE CASE STUDY MODAL
+       =================================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <span class="modal-title" id="projectModalTitle">Project Architecture & Case Study</span>
+        <button class="modal-close-btn" id="closeProjectModalBtn" aria-label="Close modal">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="projectModalBody">
+        <!-- Injected dynamically by js/projects.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="./js/security.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/architecture.js"></script>
+  <script src="./js/dashboard.js"></script>
+  <script src="./js/projects.js"></script>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
